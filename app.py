@@ -23,7 +23,7 @@ col1, col2 = st.columns([1, 3])  # Ajuste as proporções conforme necessário
 
 with col1:
     # Carrega e exibe a imagem da logo
-    logo_path = os.path.join(base_dir, "Brasao.PNG")
+    logo_path = os.path.join(base_dir, "Brasao.png")
     logo = Image.open(logo_path)  # Substitua pelo caminho da sua imagem
     st.image(logo, width=400)  # Ajuste a largura conforme necessário
 
