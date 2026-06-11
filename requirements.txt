@@ -1,8 +1,6 @@
-streamlit
-python-dotenv==1.0.1
-pandas
-base64
-PIL
-datetime
-matplotlib
-seaborn
+streamlit==1.40.2
+pandas==2.2.3
+matplotlib==3.9.2
+seaborn==0.13.2
+Pillow==11.0.0
+pyarrow==18.0.0
